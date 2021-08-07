@@ -1,0 +1,450 @@
+.banner
+{
+width: 100%;
+margin-top: 20px;
+margin-bottom: 70px;
+overflow: hidden;
+}
+
+#banner-img
+{
+	padding-top: 25px;
+	text-align: center;
+}
+
+#banner-img img{
+	width: 100%;
+	height: auto;
+	border-radius: 0px 43px 43px 0px;
+}
+
+#content{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%) 
+ }
+
+#content-head{
+width: 369px;
+font-family: 'Cinzel';
+font-style: normal;
+font-weight: normal;
+font-size: 41px;
+line-height: 77px;
+letter-spacing: 0.135em;
+
+color: #CC8E51;
+}
+
+#content-desc{
+	width: 320px;
+	font-family: 'Josefin Slab';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 41px;
+	letter-spacing: 0.055em;
+	
+	color: #E9E9E9;
+}
+
+#content-author{
+	width: 247px;	
+	font-family: 'KoHo';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 10px;
+	/* identical to box height */
+	margin-top: 20px;
+	letter-spacing: 0.055em;
+	
+	color: #906B4E;
+}
+
+#mobile-view #content{
+	background: #141413;
+	opacity: 0.95;
+	margin-top: -150px;
+	height: auto
+}
+
+#mobile-view #banner-img img{
+	border: 0;
+	border-radius:0;
+	width: 100%;
+	height: 450px
+}
+#mobile-view #content-head{
+	font-family: 'Cinzel';
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+letter-spacing: 0.135em;
+width: 100%;
+height: auto;
+color: #CC8E51;
+margin-top: 10px
+}
+#mobile-view #content-desc{
+	font-family: 'Lato';
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 22px;
+/* or 7px */
+width: 100%;
+height: auto;
+letter-spacing: 0.085em;
+
+color: #E9E9E9;
+}
+#mobile-view #content-author{
+	font-family: 'KoHo';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 14px;
+letter-spacing: 0.055em;
+text-transform: uppercase;
+color: #906B4E;
+width: 100%;
+height: auto;
+padding-bottom: 0;
+margin-bottom: 0;
+margin-top: 0;
+}
+
+.featured-products{
+width: 100%;
+height:auto;
+margin-top: 90px;
+margin-bottom: 190px;
+overflow: hidden
+}
+
+#featured-head{
+	width: 100%;
+	height: 55px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'KoHo';
+	font-style: normal;
+	font-weight: 500;
+	font-size: clamp(17px,1.7vw,42px);
+	line-height: 55px;
+	color: #BD8C54;
+}
+
+.product {
+	width: 100%;
+	padding-top:0;
+	margin-top:-50px;
+	background-color: transparent;
+  }
+.slick-slide{
+	  width: 750px;
+	
+  }
+.product .slick-cloned .img a{
+	width: 250px;
+	height: 330px;
+	filter: drop-shadow(5px 7px 4px rgba(0, 0, 0, 0.71));
+	/* Note: backdrop-filter has minimal browser support */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+}
+
+.product .slick-cloned .img a img{
+	width: 100%;
+	height: 100%;
+}
+.auction{
+	width: 100%;
+	margin-top: 70px;
+	}
+	
+	.auction-head{
+		width: 100%;
+		height: 55px;
+		text-transform: uppercase;
+		text-align: center;
+		font-family: 'KoHo';
+		font-style: normal;
+		font-weight: 500;
+		font-size: clamp(17px, 28px, 42px);
+		line-height: 55px;
+		color: #BD8C54;
+		margin-top:50px;
+		margin-bottom: 75px
+	}
+
+	#auction-info h4{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    /* line-height: 102.3%; */
+    text-align: left;
+    /* letter-spacing: 0.025em; */
+    color: #BD8C54;
+    margin-bottom: 40px;
+	}
+
+	#auction-info p{
+		font-family: 'KoHo';
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		/*line-height: 102.3%;*/
+		/* or 20px */
+		text-align: left;
+		letter-spacing: 0.025em;
+		margin-bottom: 26px;
+		color: #BEBEBE;
+	}
+	#auction-info h5{
+		font-family: 'Cinzel';
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+/* identical to box height, or 36px */
+letter-spacing: 0.025em;
+text-align: left;
+color: #CC8E51;
+margin-bottom: 40px;
+	}
+
+	/*#auction-content #auction-time{
+		width: 651px;
+	height: 137px;
+	margin-top: 50px;
+	}*/
+	
+	/*#auction-content #days{
+		position: relative;
+		width: 160px;
+		text-align: center;
+
+		margin-top: -60px;
+	}*/
+	
+	#auction-content #days h3{
+      font-family: 'KoHo';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    /* line-height: 102.3%; */
+    /* display: flex; */
+    /* align-items: flex-end; */
+    letter-spacing: 0.065em;
+    margin-top: -20px;
+    margin-left: 20px;
+    color: #E9E9E9;
+	}
+	#auction-content #days span{
+		font-family: 'KoHo';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	/* identical to box height, or 41px */
+	margin-left: 0;
+	letter-spacing: 0.025em;
+	
+	color: #E9E9E9;
+	}
+	
+	#auction-content #time{
+		    font-family: 'KoHo';
+			font-style: normal;
+			font-weight: normal;
+			font-size: 32px;
+			letter-spacing: 0.175em;
+			color: #E9E9E9;
+			line-height: 35px;
+			margin-top: 22px;
+	}
+	
+	#auction-content #time span{
+		display: flex;
+		align-items: center;
+		
+	}
+	
+	#auction-content #time m,
+	#auction-content #time h,
+	#auction-content #time secs{
+		display:flex;
+		
+	}
+	.order-btn-index{
+		text-align: center
+	}
+
+	#auction-content #time h{
+		padding-right: 18px;
+	}
+	#auction-content #time m{
+		padding-left:20px;
+		padding-right: 27px
+	}
+
+	#auction-content #time secs{
+		padding-left:20px;
+	}
+	#auction-content #time p{
+		font-size: 30px;
+		padding-top: 5px;
+		margin-bottom: 0;
+	}
+	
+
+	#auction-content #time-labels{
+	    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    /* line-height: 102.3%; */
+    /* display: flex; */
+    /* text-align: center; */
+    /* letter-spacing: 0.025em; */
+    color: #E9E9E9;
+    margin-left: 0;
+	}
+	
+	#auction-content #time-labels p{
+		padding-right: 16px;
+	}
+	#auction-content #time-labels p:nth-child(2){
+		padding-left: 20px;
+	}
+	#auction-content #time-labels p:nth-child(3){
+		padding-left: 20px;
+	}
+	#auction-info .row .col button{
+		font-family: 'KoHo';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 102.3%;
+/* or 20px */
+/*margin-top: 167px;*/
+text-align: center;
+letter-spacing: 0.025em;
+margin-top:10px;
+color: #FFCC7E;
+background: #181310;
+border: 1px solid #FFCC7E;
+box-sizing: border-box;
+padding:10px;
+width: 100%;
+cursor: pointer;
+transition : 0.5s all ease-in
+	}
+
+	#auction-info .row .col button:hover{
+		font-family: 'KoHo';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 102.3%;
+/* or 20px */
+
+text-align: center;
+letter-spacing: 0.025em;
+
+color: #181310;
+background: #FFCC7E;
+border: 1px solid #FFCC7E;
+box-sizing: border-box;
+padding:10px;
+width: 100%;
+cursor: pointer;
+	}
+
+	.media{
+		width: 100%;
+		height: auto;
+		margin-top: 170px;
+		margin-bottom: 140px;
+		}
+		
+		.media-head{
+			width: 100%;
+			height: 55px;
+			text-transform: uppercase;
+			text-align: center;
+			font-family: 'KoHo';
+			font-style: normal;
+			font-weight: 500;
+			font-size: clamp(17px, 28px, 42px);
+			line-height: 55px;
+			color: #BD8C54;
+			margin-top:50px;
+			margin-bottom: 100px
+		}
+	
+
+#mobile-view .controls{
+	/*position: absolute;
+	top:75%;
+	left:15%;*/
+	width: 70%;
+	display: flex;
+	height:40px
+}
+
+#mobile-view .controls .next{
+	width: 32px;
+	height:32px
+}
+
+#mobile-view .personalize-controls{
+	/*position: absolute;
+	top:67%;
+	left:15%;*/
+	width: 70%;
+	display: flex;
+	height:40px
+}
+
+#mobile-view .personalize-controls .next{
+	width: 32px;
+	height:32px
+}
+
+.circle {
+	stroke-dasharray: 5 20;
+	margin-top: -30px;
+  }
+
+  .circle2 {
+	stroke-dasharray: 4 10;
+	margin-top: -30px;
+  }
+  #product-area{
+	min-width: 100%;
+	/*height: 100vh;*/
+	text-align: center;
+	margin-top: 40px;
+
+	position: relative;
+}
+
+
+  
+  .slick-current{
+	  filter: blur(0px);
+  }
+
+@media (max-width: 767px){
+.banner{
+width: 100%;
+height: 140px !important;
+overflow: hidden;
+
+}

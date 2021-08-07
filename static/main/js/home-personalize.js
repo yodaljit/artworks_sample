@@ -1,0 +1,1 @@
+$(".sliders").slick({centerMode:!1,autoplay:!0,dots:!1,prevArrow:!1,infinite:!0,nextArrow:!1,lazyLoad:"ondemand",slidesToShow:1,responsive:[{breakpoint:768,settings:{dots:!1,arrows:!1,infinite:!0,slidesToShow:1,slidesToScroll:1}}]})
